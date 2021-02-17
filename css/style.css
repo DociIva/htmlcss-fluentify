@@ -30,3 +30,26 @@ h4{
 .float-left{
     float: left;
 } 
+.main-header{
+    line-height: 80px;
+    text-transform: uppercase; /*maiuscola*/
+    font-size: 12px;
+    background: #0d325a;
+}
+.main-header .logo{
+    width: 15%;
+}
+.main-header .logo img{
+    vertical-align: middle
+}
+
+.main-header .nav-centrale{
+    width: 45%;
+    
+    background: rosybrown;
+}
+.main-header .nav-destra{
+    width: 40%;
+    text-align: right;
+    background: lightgreen;
+}
