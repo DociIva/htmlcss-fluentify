@@ -214,4 +214,25 @@ p{
 }
 .bot-mont:hover{
     color:crimson;
+} 
+/*FOOTER*/
+
+.box{
+    position: relative;
+    height: 150px;
+    padding-top: 50px;
+    background-color: #d3d3d3;
+} 
+.tit-footer h2{
+    position: absolute;
+    top: 20%;
+    right: 70%;
+}
+.tit-footer{
+   width: 48%;
+   margin: 2%;
+}
+.footer-list li{
+    display:inline-block;
+    list-style: none;
 }
