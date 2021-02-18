@@ -131,57 +131,64 @@ h4{
     padding-top: 20px; 
 }
 /*SEZIONE SPIEGAZIONE*/
-.explain .container{
+.explain .container {
     height: 100%;
-    margin-bottom: 20px;
-    background-color: aqua;   
+    margin-bottom: 50px;   
 }
+
+/*H2 COLOR*/
+.title-green{
+    color: #92c62c;
+ }
+    
+hr{
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+/*PARAGARFO*/
+p{
+    font-size: 14px;
+    line-height: 1.5;
+    vertical-align: middle;
+
+}
+/*PRIMA FOTO*/
 .profile{
     width: 32%;
-    margin-right: 1px;
+    margin-right: 1%;
+    text-align: center;
 }
 
 .profile img{
     height: 100px;
-    padding-left: 40%;
-    margin-top: 10%;
-    margin-bottom: 15px;
-}
-/*H2 COLOR*/
-.title-green{
-    color: #92c62c;
-    text-align: center;
-}
-hr{
-  height: 1px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 160px;
-  margin-right: 160px;
-}
-p{
-    text-align: center;
-    font-size: 14px;
-    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 /*SECONDA FOTO*/
-.pc{
-    width: 32%;
-    margin-right: 1px;
+.computer{
+    width: 31%;
+    text-align: center;
 }
-.pc img{
-    height: 100px;
-    padding-left: 30%;
-    margin-top: 10%;
-    margin-bottom: 15px;
-}
+.computer img{
+    height: 115px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+/*TERZA FOTO*/
 .doc{
     width: 32%;
-    margin-right: 1px;
+    margin-right: 1%;
+    text-align: center;
+    
 }
 .doc img{
     height: 100px;
-    padding-left: 30%;
-    margin-top: 10%;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;   
 }
+/*MAIN FOOTER*/
