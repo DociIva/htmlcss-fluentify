@@ -140,7 +140,8 @@ h4{
 .title-green{
     color: #92c62c;
  }
-    
+ 
+ /*HR DELLE FOTO*/
 hr{
   height: 1px;
   margin-top: 20px;
@@ -151,9 +152,7 @@ hr{
 /*PARAGARFO*/
 p{
     font-size: 14px;
-    line-height: 1.5;
-    vertical-align: middle;
-
+    line-height: 1.6;  
 }
 /*PRIMA FOTO*/
 .profile{
@@ -163,14 +162,15 @@ p{
 }
 
 .profile img{
-    height: 100px;
+    height: 110px;
     margin-top: 20px;
     margin-bottom: 20px;
     
 }
 /*SECONDA FOTO*/
 .computer{
-    width: 31%;
+    width: 32%;
+    margin: 1%;
     text-align: center;
 }
 .computer img{
@@ -187,8 +187,31 @@ p{
     
 }
 .doc img{
-    height: 100px;
+    height: 110px;
     margin-top: 20px;
     margin-bottom: 15px;   
 }
+
 /*MAIN FOOTER*/
+.main-footer{
+    padding-bottom: 30px;
+}
+.image img{
+    height: 400px;
+    padding-left: 50px;
+}
+.text-mont{
+    font-size: 25px;
+}
+.mont{
+    font-size: 20px;
+    padding-bottom: 20px;
+} 
+/*BOOTONE MONTAGNE*/
+.bot-mont{
+    font-size: 14PX;
+    color:blue;
+}
+.bot-mont:hover{
+    color:crimson;
+}
