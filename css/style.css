@@ -14,9 +14,11 @@ h2,
 h3,
 h4{
     font-weight: 500;
+    color: black;
 }
 /*UTILITIES*/
 
+ /*LAYOUT*/
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -30,6 +32,39 @@ h4{
 .float-left{
     float: left;
 } 
+.w-50{
+    width: 50%;
+}
+
+/*LISTE*/
+.liste-inline li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+.liste-inline li:first-child{
+    margin-left: 0;
+}
+/*BUTTONS*/
+.bottons{
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.bottons.bottons-green{
+    background: #7cbb01;
+    border: 1px solid transparent;
+}
+.bottons.bottons-big{
+    padding: 10px;
+}
+/*HEADER*/
 .main-header{
     line-height: 80px;
     text-transform: uppercase; /*maiuscola*/
@@ -44,12 +79,86 @@ h4{
 }
 
 .main-header .nav-centrale{
-    width: 45%;
-    
-    background: rosybrown;
+    width: 45%; 
 }
+
 .main-header .nav-destra{
     width: 40%;
     text-align: right;
-    background: lightgreen;
+}
+.main-header a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-header a:hover{
+    color: rgba(124, 187, 1,1);
+}
+
+.main-header a.bottons{
+    line-height: 1;   /*usi il 100% che prendi da sopra*/
+}
+/*HERO*/
+.hero{
+    height: 480px;
+    line-height: 50px;
+    background:#0d325a;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 120% 110%; 
+}  
+.hero .container{
+    position: relative;
+    height:100%;
+}
+.hero .hero-text{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hero .hero-text h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #fff;
+}
+/*MAIN DESCRIZIONE*/
+.text-2{
+    height: 100px;
+    text-align: center;
+    line-height: 30px;
+    background: #d3d3d3;
+    padding-top: 20px; 
+}
+/*SEZIONE SPIEGAZIONE*/
+.explain .container{
+    height: 100%;
+    background-color: aqua;   
+}
+.profile{
+    width: 32%;
+    margin-right: 1px;
+}
+
+.container img{
+    height: 120px;
+    padding-left: 40%;
+    margin-top: 10%;
+}
+/*H2 COLOR*/
+.title-green{
+    color: #92c62c;
+    text-align: center;
+}
+hr{
+height: 1px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 160px;
+margin-right: 160px;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
 }
